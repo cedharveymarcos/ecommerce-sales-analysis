@@ -1,0 +1,20 @@
+gradio >= 5.34.0
+
+mlx >= 0.26.1
+mlx-lm >= 0.25.2
+mlx-vlm >= 0.1.27
+
+torch
+torchvision
+
+chromadb
+sentence-transformers
+langchain-text-splitters
+
+pypdf[full]
+python-docx
+python-pptx
+pandas
+openpyxl
+
+openai
