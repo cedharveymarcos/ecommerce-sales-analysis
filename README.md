@@ -7,13 +7,10 @@
 
 > [!IMPORTANT]
 > **Active Development Notice**: This project is under active development. Stay updated with the latest features:
-> ```bash
-> pip install -U git+https://github.com/NeptuneIsTheBest/chat-with-mlx.git
-> ```
+
 
 **Run LLM on your Mac!** An all-in-one LLMs chat Web UI based on the MLX framework, designed for Apple Silicon.
 
-The idea of chat-with-mlx comes from [qnguyen3/chat-with-mlx](https://github.com/qnguyen3/chat-with-mlx).
 
 chat-with-mlx provides a similar and more modern experience, and offers more features.
 
@@ -34,11 +31,6 @@ Get up and running in 30 seconds:
 python -m venv chat-with-mlx
 cd chat-with-mlx
 source bin/activate
-
-# Install and run
-pip install git+https://github.com/NeptuneIsTheBest/chat-with-mlx.git
-chat-with-mlx
-```
 
 That's it! Open http://127.0.0.1:7860 in your browser and start chatting! 🎉
 
@@ -77,7 +69,6 @@ That's it! Open http://127.0.0.1:7860 in your browser and start chatting! 🎉
    python -m venv chat-with-mlx
    cd chat-with-mlx
    . ./bin/activate
-   pip install git+https://github.com/NeptuneIsTheBest/chat-with-mlx.git
    ```
 
 ### Run
@@ -124,17 +115,6 @@ For the following configuration files, the model files will be stored in `models
 - `system_prompt`: The system prompt of the model.
 - `multimodal_ability`: The multimodal capabilities of the model.
 
-## Contributing
-
-If you have any questions, feel free to submit an issue to discuss at any time, or if you want to contribute any code, please feel free to submit a PR.
-
-Thanks to the maintainers of [qnguyen3/chat-with-mlx](https://github.com/qnguyen3/chat-with-mlx), [mlx](https://github.com/ml-explore/mlx), as well as all members of the open source community, for
-creating such a useful library.
-
 ## License
 
 This project is licensed under the MIT License.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=NeptuneIsTheBest/chat-with-mlx&type=Date)](https://star-history.com/#NeptuneIsTheBest/chat-with-mlx&Date)
